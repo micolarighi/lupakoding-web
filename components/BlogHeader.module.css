@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'brand-font';
+  src: local("brand-font") url("../fonts/brand-font.ttf") format("truetype");
+}
+.title {
+  font-size: xx-large;
+}
+.portableText a {
+  @apply underline transition-colors duration-200 hover:text-success;
+}
+
